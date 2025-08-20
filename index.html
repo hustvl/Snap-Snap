@@ -125,13 +125,13 @@
                 <div class="mx-auto text-center">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
-                            <a>Jia Lu&#42;</a><sup>1</sup>
+                            <a>Jia Lu</a><sup>1&#42;</sup>
 
                         <li class="list-inline-item">
-                            <a href="https://taoranyi.com/">Taoran Yi&#42;</a><sup>1</sup>
+                            <a href="https://taoranyi.com/">Taoran Yi</a><sup>1&#42;</sup>
 
                         <li class="list-inline-item">
-                            <a href="https://jaminfong.cn/">Jiemin Fang</a><sup>2</sup>
+                            <a href="https://jaminfong.cn/">Jiemin Fang</a><sup>2&#8224;</sup>
 
                         <li class="list-inline-item">
                             <a href="https://scholar.google.com/citations?hl=zh-CN&user=StdXTR8AAAAJ">Chen Yang</a><sup>3</sup>
@@ -149,7 +149,7 @@
                             <a href="https://www.qitian1987.com/">Qi Tian</a><sup>2</sup>
 
                         <li class="list-inline-item">
-                            <a href="https://xwcv.github.io/">Xinggang Wang</a><sup>1</sup>
+                            <a href="https://xwcv.github.io/">Xinggang Wang</a><sup>1&#8224;</sup>
 
                     </ul>
                     <p id="institution">
@@ -158,7 +158,8 @@
                         <sup>3</sup>Shanghai Jiaotong University &nbsp; &nbsp;
                     </p>
                     <p id="equal-contribution">
-                    &#42; Equal Contribution
+                    &#42; Equal Contribution(during internship at Huawei Inc.) &nbsp; &nbsp;
+                    &#8224; Corresponding Authors
                     </p>
                 </div>
             </div>
@@ -188,7 +189,7 @@
 
                     <div id="dynamic-teaser">
 
-                        <h6 style="color:#8899a5"> TL;DR: Snap-Snap can directly predict 3D human Gaussians from just two images in milliseconds without human prior.</h6>
+                        <h6 style="color:#8899a5"> TL;DR: Snap-Snap can directly predict 3D human Gaussians from just two images in milliseconds without human body prior.</h6>
                         <div class="col-12 text-center">
 
                             <video width="100%" playsinline="" autoplay="autoplay" loop="loop" preload="" muted="">
@@ -204,7 +205,7 @@
                 <div class="col-md-8 mx-auto">
                     <h4 class="pb-2">Abstract</h4>
                     <p class="text-justify">
-                        Reconstructing 3D human bodies from sparse views has been an appealing topic, which is crucial to broader the related applications. In this paper, we propose a quite challenging but valuable task to reconstruct the human body from only two images, i.e., the front and back view, which can largely lower the barrier for users to create their own 3D digital humans. The main challenges lie in the difficulty of building 3D consistency and recovering missing information from the highly sparse input. We redesign a geometry reconstruction model based on foundation reconstruction models to predict consistent point clouds even input images have scarce overlaps with extensive human data training. Furthermore, an enhancement algorithm is applied to supplement the missing color information, and then the complete human point clouds with colors can be obtained, which are directly transformed into 3D Gaussians for better rendering quality. Experiments show that our method can reconstruct the entire human in 190 ms on a single NVIDIA RTX 4090, with two images at a resolution of 1024*1024, demonstrating state-of-the-art performance on the THuman2.0 and cross-domain datasets. Additionally, our method can complete human reconstruction even with images captured by low-cost mobile devices, reducing the requirements for data collection.
+                        Reconstructing 3D human bodies from sparse views has been an appealing topic, which is crucial to broader the related applications. In this paper, we propose a quite challenging but valuable task to reconstruct the human body from only two images, i.e., the front and back view, which can largely lower the barrier for users to create their own 3D digital humans. The main challenges lie in the difficulty of building 3D consistency and recovering missing information from the highly sparse input. We redesign a geometry reconstruction model based on foundation reconstruction models to predict consistent point clouds even input images have scarce overlaps with extensive human data training. Furthermore, an enhancement algorithm is applied to supplement the missing color information, and then the complete human point clouds with colors can be obtained, which are directly transformed into 3D Gaussians for better rendering quality. Experiments show that our method can reconstruct the entire human in 190 ms on a single NVIDIA RTX 4090, with two images at a resolution of 1024&times;1024, demonstrating state-of-the-art performance on the THuman2.0 and cross-domain datasets. Additionally, our method can complete human reconstruction even with images captured by low-cost mobile devices, reducing the requirements for data collection.
                     </p>
                     <img src="./assets/images/teaser_fig.png" class="img-responsive" alt="teaser" 
                         style="width:75%; display:block; margin:0 auto;">
@@ -218,7 +219,7 @@
                     <p class="text-justify">
                     (a) We design a feed-forward reconstruction framework, which can directly predict 3D human Gaussians from just two images in milliseconds without human prior.
                     (b) We redesign a geometry reconstruction model which can build human point clouds even with highly sparse input, adapting the generalizable geometric prior to the human domain. In addition, a side view enhancement algorithm is proposed to supplement the unseen information.
-                    (c) With two-view images at a resolution of 1024*1024, our method can obtain complete human reconstruction results in 190 ms and demonstrates state-of-the-art performance on the THuman2.0 and cross-domain datasets. The method is also shown to perform well on data acquired from low-cost mobile devices.
+                    (c) With two-view images at a resolution of 1024&times;1024, our method can obtain complete human reconstruction results in 190 ms and demonstrates state-of-the-art performance on the THuman2.0 and cross-domain datasets. The method is also shown to perform well on data acquired from low-cost mobile devices.
                     </p>
                     <img src="./assets/images/pipeline.png" class="img-responsive" alt="pipeline">
                 </div>
