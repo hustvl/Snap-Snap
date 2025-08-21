@@ -1,0 +1,4 @@
+name: 'demo'
+
+dust3r_ckpt: '/home/jialu/nerf/snap_snap/experiments/dust3r_21_ch_0721_1059/ckpt/dust3r_21_ch_final.pth'
+restore_ckpt: '/home/jialu/nerf/snap_snap/experiments/gs_21_ch_unet1_0723_1524/ckpt/gs_21_ch_unet1_final.pth'

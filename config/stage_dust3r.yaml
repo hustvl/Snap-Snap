@@ -1,0 +1,17 @@
+name: 'dust3r'
+
+lr: 1e-4 
+wdecay: 5e-2
+batch_size: 1
+num_steps: 100000
+
+dataset:
+  source_id: 'all'
+  add_2_1: False
+  add_ch: False
+  use_hr_img: False
+  data_root: 'render_data_2.0_1024_24' 
+
+record:
+  loss_freq: 1000
+  eval_freq: 2000

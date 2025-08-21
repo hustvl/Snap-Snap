@@ -1,0 +1,25 @@
+name: 'gs'
+
+restore_ckpt: None
+
+lr: 1e-4
+wdecay: 5e-2
+batch_size: 1
+num_steps: 50000
+
+dataset:
+
+  source_id: [0, 12]
+  side_id: [6, 18]
+  train_novel_id: 'all'
+  val_novel_id: [0, 6, 12, 18]
+
+  add_2_1: False
+  add_ch: False
+  use_hr_img: True
+  data_root: 'render_data_2.0_1024_24'
+
+
+record:
+  loss_freq: 1000
+  eval_freq: 2000
