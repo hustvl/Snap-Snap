@@ -53,12 +53,11 @@ python compute_metrics.py
 ## 📑 Citation
 If you find this repository/work helpful in your research, welcome to cite the paper and give a ⭐.
 Some source code of ours is borrowed from [GPS-Gaussian](https://github.com/aipixel/GPS-Gaussian), [MASt3R](https://github.com/naver/mast3r), [GHG](https://github.com/humansensinglab/Generalizable-Human-Gaussians).We sincerely appreciate the excellent works of these authors.
-
-<!-- ```
-@inproceedings{yi2023gaussiandreamer,
-  title={GaussianDreamer: Fast Generation from Text to 3D Gaussians by Bridging 2D and 3D Diffusion Models},
-  author={Yi, Taoran and Fang, Jiemin and Wang, Junjie and Wu, Guanjun and Xie, Lingxi and Zhang, Xiaopeng and Liu, Wenyu and Tian, Qi and Wang, Xinggang},
-  year = {2024},
-  booktitle = {CVPR}
-}
-``` -->
+```
+@article{snapsnap,
+        title={Snap-Snap: Taking Two Images to Reconstruct 3D Human Gaussians in Milliseconds}, 
+        author={Jia Lu and Taoran Yi and Jiemin Fang and Chen Yang and Chuiyun Wu and Wei Shen and Wenyu Liu and Qi Tian and Xinggang Wang},
+        journal={arxiv:2508.14892},
+        year={2025}
+        }
+```
