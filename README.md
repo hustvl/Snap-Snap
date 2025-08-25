@@ -42,7 +42,7 @@ To preprocess the human data, you can use the scripts in the `prepare_data` dire
 
 **Testing**
 
-To construct human reconstruction from two images, you can use the command below. As for the evaluation, we following the calculation method of [GHG](https://github.com/humansensinglab/Generalizable-Human-Gaussians).
+To construct human reconstruction from two images, you can use the command below. As for the evaluation, we following the calculation method of [GHG](https://github.com/humansensinglab/Generalizable-Human-Gaussians). The weights are provided in [google dirve](https://drive.google.com/file/d/1YMoOQEP_fa0yv8B2gGvjB0Mv-iSkIeaA/view?usp=sharing).
 ```
 python test_view_interp.py
 
